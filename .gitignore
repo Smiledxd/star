@@ -1,1 +1,5 @@
+# Dependencias (el más pesado)
 node_modules/
+
+# Configuración del editor
+.vscode/
