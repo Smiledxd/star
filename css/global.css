@@ -17,7 +17,7 @@
   box-sizing: border-box;
 }
 /*STAR HEADER*/
-#header {
+.header {
   width: 100%;
   height: 100vh;
   background-color: var(--blue);
@@ -110,3 +110,41 @@
   font-size: 2rem;
 }
 /*END HEADER*/
+
+/*STAR FEATURE*/
+.features-container {
+  width: 100%;
+  height: 6rem;
+  background-color: var(--blue);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.feature {
+  width: 20%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.features-container .feature:not(:last-child) {
+  border-right: var(--yellow) 2px solid;
+  padding-right: 4rem;
+}
+.features-container .feature .feature-child h3 {
+  color: var(--yellow);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.feature-icon {
+  width: 8rem;
+  height: 8rem;
+}
+.feature-icon img {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/*END FEATURE*/
