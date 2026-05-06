@@ -1,0 +1,112 @@
+/* permanent-marker-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Permanent Marker";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/permanent-marker-v16-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+:root {
+  --blue: #012444;
+  --yellow: #cb9d28;
+  --margin: 3rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*STAR HEADER*/
+#header {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.barnav {
+  height: 6rem;
+  width: 100%;
+}
+.logo-nav-buy {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--margin);
+}
+.img-logo {
+  width: 5rem;
+  height: 5rem;
+}
+.img-logo .logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.nav-list {
+  width: 70%;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.btn-y {
+  text-decoration: none;
+  background-color: var(--yellow);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: var(--blue);
+  font-size: 1.25rem;
+  width: 15rem;
+  text-align: center;
+}
+.box .btn-y {
+  margin-top: 1rem;
+}
+.banner-container-1 {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  position: relative;
+  display: flex;
+}
+.banner-img-1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.box {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 var(--margin);
+  font-family: "Trebuchet MS";
+}
+.box h1 {
+  font-size: 6rem;
+  color: #fff;
+}
+.box h1 b {
+  font-size: 5rem;
+  color: var(--yellow);
+  font-family: "Permanent Marker";
+  letter-spacing: 0.4rem;
+}
+.box p {
+  color: white;
+  font-size: 2rem;
+}
+/*END HEADER*/
