@@ -148,3 +148,81 @@
   height: 100%;
 }
 /*END FEATURE*/
+
+/*STAR BANNER 2*/
+.banner-container-2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.banner-img-2 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.box-banner-main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 var(--margin);
+  align-items: center;
+  color: var(--blue);
+}
+.box-banner-1 h2 {
+  font-size: 4.5rem;
+}
+.box-banner-1 p {
+  font-size: 1.75rem;
+  padding: 2rem 0;
+}
+.box-banner-1 .btn-learn-more {
+  text-decoration: none;
+  background-color: var(--blue);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: var(--blue);
+  font-size: 1.25rem;
+  width: 15rem;
+  text-align: center;
+  color: var(--yellow);
+  font-weight: bold;
+}
+.box-banner-2 {
+  display: flex;
+  height: 100%;
+  width: 30%;
+  align-items: center;
+}
+.box-banner-2 .box-father {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box-banner-2 .box-father .box-child {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  gap: 5rem;
+}
+.box-banner-2 .box-father .box-child .image-box-child {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+}
+.box-banner-2 .box-father .box-child .image-box-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.box-banner-2 .box-father .box-child .text-box-child h3 {
+  font-size: 2rem;
+}
+.box-banner-2 .box-father .box-child .text-box-child p {
+  font-size: 1.5rem;
+}
